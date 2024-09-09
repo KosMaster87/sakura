@@ -25,7 +25,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: " order order order ";
+  grid-template-areas: " orderOne orderTwo orderThree ";
 
   // display: flex;
   align-items: center;
@@ -48,7 +48,7 @@
 }
 
 .order {
-  grid-area: order;
+  grid-area: orderOne orderTwo orderTre;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,13 +64,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      " order "
-      " order "
-      " order ";
+      " orderOne "
+      " orderTwo "
+      " orderThree ";
   }
 
   .order {
-    grid-area: order;
+    grid-area: orderOne orderTwo orderTre;
     > img {
       width: clamp(150px, 3vh + 8rem, 170px);
     }
