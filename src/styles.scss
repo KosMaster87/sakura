@@ -9,6 +9,7 @@
 }
 
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -23,7 +24,33 @@ body {
   font-family: "Raleway";
 }
 
-// .navDiv {
-//   width: 90%;
-//   // display: flex;
+// .navRightSide {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   align-items: center;
+//   gap: 16px;
+// }
+
+// .phone_btn {
+//   // width: 350px;
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: center;
+//   padding-left: 32px;
+//   > img {
+//     width: 64px;
+//     height: 64px;
+//   }
+// }
+
+// a {
+//   text-decoration: none;
+//   color: white;
+//   > a {
+//     &:hover {
+//       color: green;
+//     }
+//   }
 // }

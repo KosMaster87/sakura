@@ -1,47 +1,47 @@
-.c_navDiv {
-  position: fixed;
-  top: 0;
-  width: 80%;
-  height: 70px;
+// .c_navDiv {
+//   position: fixed;
+//   top: 0;
+//   width: 80%;
+//   height: 70px;
 
-  margin-top: 32px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+//   margin-top: 32px;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
 
-  > img {
-    width: 64px;
-    height: 64px;
-  }
-}
+//   > img {
+//     width: 64px;
+//     height: 64px;
+//   }
+// }
 
-.navRightSide {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 16px;
-}
+// .navRightSide {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   align-items: center;
+//   gap: 16px;
+// }
 
-.phone_btn {
-  // width: 350px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding-left: 32px;
-  > img {
-    width: 64px;
-    height: 64px;
-  }
-}
+// .phone_btn {
+//   // width: 350px;
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: center;
+//   padding-left: 32px;
+//   > img {
+//     width: 64px;
+//     height: 64px;
+//   }
+// }
 
-a {
-  text-decoration: none;
-  color: white;
-  > a {
-    &:hover {
-      color: green;
-    }
-  }
-}
+// a {
+//   text-decoration: none;
+//   color: white;
+//   > a {
+//     &:hover {
+//       color: green;
+//     }
+//   }
+// }

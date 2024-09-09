@@ -1,4 +1,5 @@
-.c_orderHead {
+.c_order {
+  // position: relative;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -26,7 +27,7 @@
   grid-template-rows: 1fr;
   grid-template-areas: " order order order ";
 
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: space-evenly;
 
@@ -47,6 +48,7 @@
 }
 
 .order {
+  grid-area: order;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +70,7 @@
   }
 
   .order {
+    grid-area: order;
     > img {
       width: clamp(150px, 3vh + 8rem, 170px);
     }
