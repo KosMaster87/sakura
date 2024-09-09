@@ -5,12 +5,21 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 2rem;
+    padding-top: 1rem;
     gap: 2rem;
+    background-color: rgb(9, 19, 29);
+  }
 
-    > img {
-      width: clamp(260px, 60%, 380px);
-    }
+  .footerBox {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .footerLogo {
+    width: clamp(260px, 60%, 380px);
   }
 
   .social {

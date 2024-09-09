@@ -3,18 +3,28 @@
   top: 0;
   left: 0;
   right: 0;
+
   height: 70px;
   padding: 0 60px 0 60px;
-
   margin-top: 32px;
-  display: flex;
+
   flex-direction: row;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
 
   > img {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
   }
+}
+
+.ancherDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
 }
 
 .navRightSide {
@@ -25,25 +35,51 @@
   gap: 16px;
 }
 
-.phone_btn {
-  width: 350px;
+.phoneBtn {
+  width: 190px;
+  height: 50px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-left: 32px;
-  > img {
-    width: 64px;
-    height: 64px;
-  }
+
+  border: solid;
+  border-color: aliceblue;
+  background-color: rgb(182, 38, 38);
+  border-radius: 10px;
+
+  gap: 0.2rem;
+  padding: 10px;
+}
+
+.phoneBtn_img {
+  width: 50px;
+  height: 50px;
 }
 
 a {
   text-decoration: none;
   color: white;
-  > a {
-    &:hover {
-      color: green;
-    }
+}
+
+a:hover {
+  color: green;
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .ancherDiv {
+    display: none;
+  }
+
+  .c_navDiv {
+    padding: 0px 20px 0 20px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 761px) {
+  a {
+    font-size: clamp(16px, 0vw, 16px);
   }
 }
