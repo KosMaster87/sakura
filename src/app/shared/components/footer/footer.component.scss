@@ -18,6 +18,15 @@
     gap: 1rem;
   }
 
+  .imprintLink {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: green;
+    }
+  }
+
   .footerLogo {
     width: clamp(260px, 60%, 380px);
   }
@@ -41,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(9, 19, 29);
   }
 
   .footerBox {
@@ -53,6 +63,15 @@
 
     > img {
       width: clamp(260px, 60%, 380px);
+    }
+  }
+
+  .imprintLink {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: green;
     }
   }
 
