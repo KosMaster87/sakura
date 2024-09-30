@@ -6,16 +6,17 @@ import { NavbarComponent } from './navbar/navbar.component';
   selector: 'app-landingPage',
   standalone: true,
   imports: [CommonModule, NavbarComponent],
-  template: `
-    <section>
-      <app-navbar></app-navbar>
+  templateUrl: './landingPage.component.html',
+  // template: `
+  //   <section>
+  //     <app-navbar></app-navbar>
 
-      <div class="WelcomeText">
-        <h1 class="fontRaleway">SAKURA RAMEN</h1>
-        <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
-      </div>
-    </section>
-  `,
+  //     <div class="WelcomeText">
+  //       <h1 class="fontRaleway">SAKURA RAMEN</h1>
+  //       <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
+  //     </div>
+  //   </section>
+  // `,
   styleUrls: ['./landingPage.component.scss'],
 })
 export class LandingPageComponent {}
